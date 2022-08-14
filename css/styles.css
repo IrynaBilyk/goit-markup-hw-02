@@ -1,0 +1,98 @@
+
+
+.list {
+    list-style:none;
+}
+
+img {
+    display: block;
+}
+
+body{
+    background-color: var(--main-backgroung-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.blu{
+    color:#2196F3;
+}
+
+.link-nav{
+    color:#212121;
+}
+.link-nav:hover,
+.link-nav:focus{
+    color:#2196F3;
+}
+.menu .current{
+    color: #2196F3;
+}
+
+.header-contact .link{
+    color:#757575;
+}
+
+page-header {
+    background-color: var(--main-backgroung-color);
+}
+
+.hero{
+    background-color:#2F303A;
+}
+.hero-title{
+    color:#FFFFFF;
+}
+.hero-btn{
+background-color:#2196F3;
+color:#FFFFFF;
+}
+
+h2, h3{
+color:#212121;
+}
+
+.feature-text{
+    color: #757575;
+}
+.team-list{
+    color: #757575;
+}
+.contacts{
+    background-color: #2F303A;
+}
+
+.a-contact{
+    color: #FFFFFF;
+} 
+
+.main-link,
+.phone-link{
+color:#FFFFFF;
+}
+
+.main-link:hover,
+.phone-link:focus{
+    color:#2196F3;
+}
+
+.white{
+    color: #FFFFFF;
+}
+.section-btn{
+    background-color: #F5F4FA;
+    color: #212121;
+}
+.section-btn:hover,
+.section-btn:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.portfolio-section{
+    background-color: #F5F5F5;
+}
+.portfolio-tytle{
+    color: #757575;
+}
