@@ -1,6 +1,14 @@
+:root{
+    --accent-color:#2196F3;
+    --primery-text-color:#212121;
+    --secondary-text-color:#757575;
+    --logo-light-color:#ffffff;
+    --logo-dark-color:#000000;
+    --background-color:#2F303A;
+    --secondary-background-color:#F5F4FA;
+}
 
-
-.list {
+.list{
     list-style:none;
 }
 
@@ -17,22 +25,25 @@ a {
 }
 
 .blu{
-    color:#2196F3;
+    color:var(--accent-color);
+}
+.black{
+    color:var(--logo-dark-color);
 }
 
 .link-nav{
-    color:#212121;
+    color:var(--secondary-text-color);
 }
 .link-nav:hover,
 .link-nav:focus{
-    color:#2196F3;
+    color:var(--accent-color);
 }
 .menu .current{
-    color: #2196F3;
+    color:var(--accent-color);
 }
 
 .header-contact .link{
-    color:#757575;
+    color:var(--secondary-text-color);
 }
 
 page-header {
@@ -40,59 +51,64 @@ page-header {
 }
 
 .hero{
-    background-color:#2F303A;
+    background-color:var(--background-color);
 }
 .hero-title{
-    color:#FFFFFF;
+    color:var(--logo-light-color);
 }
 .hero-btn{
-background-color:#2196F3;
-color:#FFFFFF;
+background-color:var(--accent-color);
+color:var(--logo-light-color);
 }
 
 h2, h3{
-color:#212121;
+color:var(--primery-text-color);
 }
 
 .feature-text{
-    color: #757575;
+    color:var(--secondary-text-color);
 }
 .team-list{
-    color: #757575;
+    color:var(--secondary-text-color);
 }
 .contacts{
-    background-color: #2F303A;
+    background-color:var(--background-color);
 }
 
 .a-contact{
-    color: #FFFFFF;
+    color:var(--logo-light-color);
 } 
 
-.main-link,
+.mail-link,
 .phone-link{
-color:#FFFFFF;
+color:var(--logo-light-color);
 }
 
-.main-link:hover,
+.mail-link:hover,
+.mail-link:focus{
+    color:var(--accent-color);
+}
+
+.phone-link:hover
 .phone-link:focus{
-    color:#2196F3;
+    color:var(--accent-color);
 }
 
 .white{
-    color: #FFFFFF;
+    color:var(--logo-light-color);
 }
 .section-btn{
-    background-color: #F5F4FA;
-    color: #212121;
+    background-color:var(--secondary-background-color);
+    color:var(--primery-text-color);
 }
 .section-btn:hover,
 .section-btn:focus{
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color:var(--accent-color);
+    color:var(--logo-light-color);
 }
-.portfolio-section{
-    background-color: #F5F5F5;
-}
+
 .portfolio-tytle{
-    color: #757575;
+    color:var(--secondary-text-color);
 }
+.section-team{
+    background-color:var(--secondary-background-color);
